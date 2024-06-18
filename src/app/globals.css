@@ -2,32 +2,138 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.resume {
+  width: 100vw;
+  height: 129.411765vw;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.title-container {
+  display: flex;
+  color: white;
+  background-color: #404040;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 135px;
+  z-index: 1000;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.name {
+  font-size: 3rem;
+  font-weight: 400;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.position {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.main-content-container {
+  display: flex;
+  height: 100%;
+  padding-top: 135px;
+}
+
+.sidebar-container {
+  background-color: #f2f2f2;
+  padding: 1rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.contact-container * {
+  align-self: flex-end;
+  font-size: 0.9rem;
+}
+
+.contact-title-container h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.education-container * {
+  align-self: flex-end;
+  font-size: 0.9rem;
+}
+
+.education-title-container h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-container * {
+  align-self: flex-end;
+  font-size: 0.9rem;
+}
+
+.skills-title-container h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.skills-list-container * {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-experience-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.work-experience-title h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.work-experience h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.job-skills-list li {
+  font-size: 0.8rem;
+  list-style-type: circle;
+  margin-left: 1rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.projects-title-container h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.projects-list h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.project-bullets li {
+  font-size: 0.8rem;
+  list-style-type: circle;
+  margin-left: 1rem;
 }
