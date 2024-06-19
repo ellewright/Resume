@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* a {
+  color: #5495ff;
+  text-decoration-line: underline;
+}
+
 .resume {
   width: 100vw;
   height: 129.411765vw;
@@ -56,6 +61,12 @@
 .contact-title-container h3 {
   font-size: 1.25rem;
   font-weight: 700;
+}
+
+.links-container {
+  display: flex;
+  width: 7rem;
+  justify-content: space-between;
 }
 
 .education-container {
@@ -136,4 +147,8 @@
   font-size: 0.8rem;
   list-style-type: circle;
   margin-left: 1rem;
+}
+
+.project {
+  margin-bottom: 0.5rem;
 }

@@ -24,8 +24,13 @@ export default function Resume() {
                         <div className="location-container">
                             <p>Saint Joseph, MO</p>
                         </div>
-                        <div className="linkedin-container">
-                            <a href="https://www.linkedin.com/in/ellewri/">LinkedIn</a>
+                        <div className="links-container">
+                            <div className="linkedin-container">
+                                <a href="https://www.linkedin.com/in/ellewri/">LinkedIn</a>
+                            </div>
+                            <div className="github-container">
+                                <a href="https://github.com/ellewright">Github</a>
+                            </div>
                         </div>
                     </div>
                     <div className="education-container">
@@ -40,6 +45,9 @@ export default function Resume() {
                         </div>
                         <div className="dates-container">
                             <p>August 2018 - May 2022</p>
+                        </div>
+                        <div className="school-container">
+                            <p><a href="https://www.bellarmine.edu/">Bellarmine University</a></p>
                         </div>
                         <div className="education-location-container">
                             <p>Louisville, KY</p>
@@ -88,13 +96,28 @@ export default function Resume() {
                         </div>
                         <div className="projects-list">
                             <ul>
-                                <li>
+                                <li className="project">
                                     <h4><a href="https://github.com/ellewright/Final-Project">Personal Quiz</a></h4>
                                     <ul className="project-bullets">
                                         <li>Final project for the Foundational Software Development course through CourseCareers.</li>
                                         <li>Built with ReactJS and deployed using Vercel.</li>
                                         <li>Utilizes Tailwind CSS for styling.</li>
                                         <li>Validates multiple choice answers with front-end logic.</li>
+                                    </ul>
+                                </li>
+                                <li className="project">
+                                    <h4><a href="https://github.com/ellewright/todo-list">To-Do List App</a></h4>
+                                    <ul className="project-bullets">
+                                        <li>Application which allows for creation, storage, and deletion of task items.</li>
+                                        <li>Built with ReactJS and deployed using Vercel.</li>
+                                    </ul>
+                                </li>
+                                <li className="project">
+                                    <h4><a href="https://github.com/ellewright/React-TicTacToe">Tic-Tac-Toe App</a></h4>
+                                    <ul className="project-bullets">
+                                        <li>Functional two-player tic-tac-toe game.</li>
+                                        <li>Built with ReactJS and deployed using Vercel.</li>
+                                        <li>Implemented functionality which allows for move callbacks and retries.</li>
                                     </ul>
                                 </li>
                             </ul>
