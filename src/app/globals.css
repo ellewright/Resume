@@ -36,7 +36,7 @@
   font-weight: 300;
 }
 
-.main-content-container {
+.content-container {
   display: flex;
   height: 100%;
   padding-top: 135px;
@@ -90,19 +90,7 @@
   font-weight: 400;
 }
 
-.job-bullets li {
-  font-size: 0.8rem;
-  list-style-type: circle;
-  margin-left: 1rem;
-}
-
-.job-skills-list li {
-  font-size: 0.8rem;
-  list-style-type: circle;
-  margin-left: 1rem;
-}
-
-.project-bullets li {
+.bullets li {
   font-size: 0.8rem;
   list-style-type: circle;
   margin-left: 1rem;
