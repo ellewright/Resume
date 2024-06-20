@@ -47,18 +47,18 @@
   padding: 1rem;
 }
 
-.contact-container {
+.side-section {
   display: flex;
   flex-direction: column;
   padding-bottom: 2rem;
 }
 
-.contact-container * {
+.side-section * {
   align-self: flex-end;
   font-size: 0.9rem;
 }
 
-.contact-title-container h3 {
+.side-section div h3 {
   font-size: 1.25rem;
   font-weight: 700;
 }
@@ -69,78 +69,37 @@
   justify-content: space-between;
 }
 
-.education-container {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 2rem;
-}
-
-.education-container * {
-  align-self: flex-end;
-  font-size: 0.9rem;
-}
-
-.education-title-container h3 {
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-.skills-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.skills-container * {
-  align-self: flex-end;
-  font-size: 0.9rem;
-}
-
-.skills-title-container h3 {
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
 .skills-list-container * {
   display: flex;
   flex-direction: column;
 }
 
-.work-experience-container {
+.main-section {
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
 
-.work-experience-title h3 {
+.main-section div h3 {
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-.work-experience h4 {
+.main-body h4 {
   font-size: 1.25rem;
   font-weight: 400;
+}
+
+.job-bullets li {
+  font-size: 0.8rem;
+  list-style-type: circle;
+  margin-left: 1rem;
 }
 
 .job-skills-list li {
   font-size: 0.8rem;
   list-style-type: circle;
   margin-left: 1rem;
-}
-
-.projects-container {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-}
-
-.projects-title-container h3 {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.projects-list h4 {
-  font-size: 1.25rem;
-  font-weight: 400;
 }
 
 .project-bullets li {

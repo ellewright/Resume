@@ -11,7 +11,7 @@ export default function Resume() {
             </div>
             <div className="main-content-container">
                 <div className="sidebar-container">
-                    <div className="contact-container">
+                    <div className="contact-container side-section">
                         <div className="contact-title-container">
                             <h3>Contact</h3>
                         </div>
@@ -33,7 +33,7 @@ export default function Resume() {
                             </div>
                         </div>
                     </div>
-                    <div className="education-container">
+                    <div className="education-container side-section">
                         <div className="education-title-container">
                             <h3>Education</h3>
                         </div>
@@ -53,7 +53,7 @@ export default function Resume() {
                             <p>Louisville, KY</p>
                         </div>
                     </div>
-                    <div className="skills-container">
+                    <div className="skills-container side-section">
                         <div className="skills-title-container">
                             <h3>Skills</h3>
                         </div>
@@ -70,11 +70,11 @@ export default function Resume() {
                     </div>
                 </div>
                 <div className="main-content">
-                    <div className="work-experience-container">
+                    <div className="work-experience-container main-section">
                         <div className="work-experience-title">
                             <h3>Work Experience</h3>
                         </div>
-                        <div className="work-experience">
+                        <div className="work-experience main-body">
                             <ul>
                                 <li>
                                     <h4>Cloth Roller</h4>
@@ -90,11 +90,11 @@ export default function Resume() {
                             </ul>
                         </div>
                     </div>
-                    <div className="projects-container">
+                    <div className="projects-container main-section">
                         <div className="projects-title-container">
                             <h3>Projects</h3>
                         </div>
-                        <div className="projects-list">
+                        <div className="projects-list main-body">
                             <ul>
                                 <li className="project">
                                     <h4><a href="https://github.com/ellewright/Final-Project">Personal Quiz</a></h4>
